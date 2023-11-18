@@ -7,8 +7,8 @@ import SvgComponentBlog from './SvgComponentBlog'
 export default function Header(props) {
     return (
         <>
-            <nav className='sticky top-0 bg-gray-800/80'>
-                <div className='mx-auto max-w-7xl px-2 sm:px-6 lg:px-8'>
+            <nav className='sticky top-0 bg-cyan-800/70'>
+                <div className='flex justify-center'>
                     <div className='relative flex h-16 items-center justify-between'>
                         <div className='absolute inset-y-0 left-0 flex items-center sm:hidden'>
                         {/* Mobile menu button */}
@@ -32,9 +32,6 @@ export default function Header(props) {
                         </button>
                         </div>
                         <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
-                            {/* <div className="flex flex-shrink-0 items-center">
-                                <img className="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500" alt="Your Company"></img>
-                            </div> */}
                             <div className="hidden sm:ml-6 sm:block">
                             <div className="flex space-x-4">
                                 <SvgComponentTalk width={32} height={32}/>
