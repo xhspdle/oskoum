@@ -1,4 +1,8 @@
 import Image from 'next/image'
+import SvgComponentTalk from './SvgComponentTalk'
+import SvgComponentCalender from './SvgComponentCalender'
+import SvgComponentCall from './SvgComponentCall'
+import SvgComponentBlog from './SvgComponentBlog'
 
 export default function Header(props) {
     return (
@@ -33,9 +37,13 @@ export default function Header(props) {
                             </div> */}
                             <div className="hidden sm:ml-6 sm:block">
                             <div className="flex space-x-4">
+                                <SvgComponentTalk width={32} height={32}/>
                                 <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">카카오톡</a>
+                                <SvgComponentCalender width={32} height={32}/>
                                 <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">진료예약</a>
+                                <SvgComponentCall width={32} height={32}/>
                                 <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">전화상담</a>
+                                <SvgComponentBlog width={32} height={32}/>
                                 <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">블로그</a>
                             </div>
                             </div>
@@ -44,9 +52,13 @@ export default function Header(props) {
                 </div>
                 <div className="sm:hidden" id="mobile-menu">
                     <div className="space-y-1 px-2 pb-3 pt-2">
+                    <SvgComponentTalk width={32} height={32}/>
                     <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">카카오톡</a>
+                    <SvgComponentCalender width={32} height={32}/>
                     <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">진료예약</a>
+                    <SvgComponentCall width={32} height={32}/>
                     <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">전화상담</a>
+                    <SvgComponentBlog width={32} height={32}/>
                     <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">블로그</a>
                     </div>
                 </div>
