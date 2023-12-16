@@ -1,9 +1,6 @@
 import * as React from "react"
 const SvgComponent = (props) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 141.56 131.3" {...props}>
-    <defs>
-      <style>{".cls-1{fill:#221e1f}"}</style>
-    </defs>
     <g id="\uB808\uC774\uC5B4_2" data-name="\uB808\uC774\uC5B4 2">
       <g id="Layer_1" data-name="Layer 1">
         <path

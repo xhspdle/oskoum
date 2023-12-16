@@ -5,9 +5,6 @@ const SvgComponent = (props) => (
     viewBox="0 0 186.34 189.75"
     {...props}
   >
-    <defs>
-      <style>{".cls-1{fill:#000101}"}</style>
-    </defs>
     <g id="\uB808\uC774\uC5B4_2" data-name="\uB808\uC774\uC5B4 2">
       <g id="Layer_1" data-name="Layer 1">
         <path
